@@ -15,6 +15,8 @@ const AddExpenseForm = () => {
       cost: parseInt(cost),
     };
     dispatch({ type: "ADD_EXPENSE", payload: expense });
+    setCost('');
+    setName('');
   };
 
   return (
