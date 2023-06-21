@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useState } from "react";
 import { AppContext } from "../context/AppContext";
 
 const Budget = () => {
